@@ -155,7 +155,7 @@ ul.dropdown li{
 .lower-text {
     font-size: 14px;
     margin-bottom: 20px;
-    color: #dab46b;
+    color: rgb(164, 40, 103);
     
 }
 .btn.btn-shop {
@@ -355,7 +355,7 @@ div#Multifloral {
 }
 .title-head
 {
-    color: #dab46b;
+    color: #a42867;
 }
 .main_white
 {
@@ -370,7 +370,9 @@ div#Multifloral {
     text-align: center;
 }
 .lazyautosizes.lazyloaded {
-	mix-blend-mode: darken;
+	mix-blend-mode:color-burn;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 .warapper{
     padding: 10px 20px;
@@ -529,16 +531,11 @@ body
   font-weight: 600;
 }
 .product-wrapper.backward {
-   
- 
-        position: absolute;
-        top: 15px;
-        width: 100%;
-
-        height: 60vh;
-      
+    position: absolute;
+    top: 15px;
+    width: 91%;
+    height: 60vh;
 }
-
 .fa-trash
 {
     display: none; /* Initially hide the backward arrow and trash icon */
@@ -586,4 +583,8 @@ footer
 cursor
 {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC3klEQVR4nO2YT2jTUBzH3+Z0XnR9L94EURREwZN/LyLidEtkgkcRQdiiJ1GHoCCszXGNuytxeJiCh7XevGzQkUwdmj8dTfdeklcHAw+KBx26qpdIunWWLSvU/o3mA18IJXzz+773++WFAhASEhLiwybIwDuIge8RA38hJpJBqOsqCAoIwTHEQHetIISDoNVBCJ31K74QAEXyCKGdoJVBKBLfKEAhxA54CbQyqJUDDE/37I8rnCTKrCzK7MP4dO/etfdACHvKBPjZtBYanmaPxGV2SVQ4t6i4wn0bmWIPrQvBwIRvABS5D5qFqHBTpcWvhpC5lz63t3tvHIRgrrDqDJxFqOtiOX+d0CGD0KlZK3eyLgG81fYLIMrs52q9VTO3yyDU9aRjRwH1QFRY238H2HS13rZtdxqYzhVCYCcG6kFc6b3lF+CBcv5aLfxT8/Nb04TsAfUi6kbbRZkbEhUuv9I63+MKd891QRsIEo/Uw5tHXp/bF02d6mh2LSEh9WZs5sZ2Sevv8+RdgyAxql8/KKn8wmOVdz1515LWfwAEBendwGSx+D8hBiYa9Xx1zj6hYzpjEPombVnHKzaQVH5xfQB+ETQIgzj26ucFcayKDSR1QPPZAQ00CAPTTyXfRx8rNhh9y3dLKp8vWf289xtoEBpxrhjYWVpW7vJfmXhDK6n8UEFNGGDbtjtN09zS6OeGhPzTJDPRcwkzdvtFVjgDgoTrum1JU3iezApuUYls7EktvHWSO6pjqhvY+aIT5ynGeBuoNcmswJYWX9R4RjhdjW8qleowCP1QPLSWDy46AmpNwozd9QuQzMZuVuNr4PndpcWv6BWoNYHfAbfCGdCtXLfX1zqhiwZ2JjXL2vAkN6zcseUZoF8N4jyrywwUGc8IPUlTGCz3FvKK1TH9sWZVF+paWC3x/pzy6WtXw84FEAR0QqN+AdLY7gNBQAt6C60OMaHayhBPlBvikJCQ/5jfRfOz8Lhp+PIAAAAASUVORK5CYII=');
+}
+.mt-7
+{
+    margin-top: 7.7rem;
 }
