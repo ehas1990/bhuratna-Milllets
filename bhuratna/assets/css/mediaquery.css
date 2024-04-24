@@ -12,15 +12,17 @@
     .Feature img {
         width: 95% ;
     }
-    .block-caption {
-        -webkit-backdrop-filter: blur(32px);
-        backdrop-filter: blur(32px);
-        max-width: 89%;
-        background-color: hsl(184deg 100% 26% / 57%);
-        color: #fcfcf5;
-        border-radius: 32px;
-        margin-top: -26% !important;
-        margin-left: 4% !important;
+   
+        .block-caption {
+            -webkit-backdrop-filter: blur(32px);
+            /* backdrop-filter: blur(32px); */
+            max-width: 89%;
+            background-color: hsl(329.52deg 60.78% 40% / 69%);
+            color: #fcfcf5;
+            border-radius: 32px;
+            margin-top: -26% !important;
+            margin-left: 4% !important;
+        
     }
     .slider-text {
         width: 71% !important;
