@@ -71,7 +71,16 @@ body[data-rtl=rtl] {
   text-align: right;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333333;
+  font-weight: 400;
+  margin-top: 0;
+  line-height: 1.2; 
+  margin-bottom: 80px;
+} 
+
+h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
   color: #333333;
   font-weight: 400;
@@ -85,11 +94,13 @@ h1 {
 @media only screen and (max-width: 767px) {
   h1 {
     font-size: 32px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 575px) {
   h1 {
     font-size: 13px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1360,7 +1371,7 @@ header.header.is-sticky .header-bottom {
 /*-- Header Logo --*/
 @media only screen and (max-width: 479px) {
   .logo {
-    width: 120px;
+    width: 120px !important;
   }
 }
 .logo a {
@@ -1368,6 +1379,8 @@ header.header.is-sticky .header-bottom {
 }
 .logo a img {
   max-width: 100%;
+  padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 /*-- Header Search --*/
@@ -1400,12 +1413,12 @@ header.header.is-sticky .header-bottom {
 .header-search-toggle {
   background-color: transparent;
   border: none;
-  color: #9a9a9a;
+  color: #a42867;
   padding: 0;
   width: 35px;
   height: 35px;
   line-height: 30px;
-  border: 2px solid #9a9a9a;
+  border: 2px solid #a42867;
   border-radius: 50%;
 }
 .header-search-toggle i {
@@ -1496,7 +1509,7 @@ header.header.is-sticky .header-bottom {
 .header-cart > a {
   background-color: transparent;
   border: none;
-  color: #9a9a9a;
+  color: #a42867;
   padding: 0;
   line-height: 1;
   width: 35px;
