@@ -9,20 +9,26 @@ $(document).ready(function(){
       
       $(".dropdown1").slideToggle();
     });
-    $("#stainlesss").hover(function () { 
+    $("#KODO-img").hover(function () { 
    
       
-      $("#desc1").slideToggle();
+      $("#desc1").slideToggle("slow");
     });
-    $("#Wildforest-img").hover(function () { 
+    $("#Banyard-img").hover(function(){
+      $("#Banyard").slideToggle("slow");
+    })
+    $("#little-img").hover(function(){
+      $("#little").slideToggle("slow");
+    })
+    $("#FOXTAIL-img").hover(function () { 
    
       
-      $("#Wildforest").slideToggle();
+      $("#FOXTAIL").slideToggle("slow");
     });
     $("#Multifloral-img").hover(function () { 
    
       
-      $("#Multifloral").slideToggle();
+      $("#Multifloral").slideToggle("slow");
     });
   });
   $(document).ready(function() {
